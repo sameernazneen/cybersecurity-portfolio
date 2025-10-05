@@ -6,7 +6,7 @@
 
 ## 📄 Portfolio
 You can download my full portfolio here:  
-[Portfolio PDF](portfolio.pdf)
+[Portfolio PDF](File-permissions-in-Linux-portfolio.docx)
 
 ---
 
