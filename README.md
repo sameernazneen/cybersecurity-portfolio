@@ -36,7 +36,6 @@ You can download my full portfolio here:
 ---
 
 ## 📫 Contact
-- LinkedIn: (https://www.linkedin.com/in/sameera-nazneen14/) 
+- LinkedIn: https://www.linkedin.com/in/sameera-nazneen14/
 - Email: sameera.ghouri@gmail.com
-- LinkedIn: [Your LinkedIn URL]  
-- Email: [your.email@example.com]
+  
