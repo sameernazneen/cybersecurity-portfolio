@@ -5,8 +5,10 @@
 ---
 
 ## 📄 Portfolio
-You can download my full portfolio here:  
-[Portfolio PDF](File-permissions-in-Linux-portfolio.docx)
+  
+[Download My Portfolio PDF](File-permissions-in-Linux-portfolio.docx)
+
+[View My Projects on Medium](https://medium.com/@sameera.ghouri/file-permissions-in-linux-05baed53c4ce)
 
 ---
 
