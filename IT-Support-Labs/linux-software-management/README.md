@@ -40,6 +40,10 @@ All outputs below were captured from a real Debian 10 (buster) lab instance.
 
 > ℹ️ Outputs are trimmed to the most relevant lines. `dpkg -s` only reads package status, so it needs no `sudo`.
 
+> ⚠️ **Note on the OS version:** Debian 10 (buster) reached the end of its Long Term Support on June 30, 2024. This was a training lab environment, and Debian 10 is not a suitable choice for new or production systems today. The same commands work on current Debian and Ubuntu releases.
+
+> 🔍 **Note on package versions:** All versions shown are exactly as they appeared in the lab. The VLC build string before the update (`2.2.7-1~deb8u1`) carries an older build suffix, likely from the lab image, while the repositories (`buster`) and the updated packages (`~deb10u1`) match Debian 10.
+
 ---
 
 ## 🔬 Lab Walkthrough
@@ -96,12 +100,14 @@ Version: 2.2.7-1~deb8u1
 
 ### 3️⃣ Update the package
 
-Refresh the package index and install the newer version:
+Refresh the package lists, then install the newer version:
 
 ```bash
 sudo apt-get update
 sudo apt-get install vlc
 ```
+
+> `apt-get update` only refreshes the list of available packages from the repositories. It does **not** install or upgrade any software. The `apt-get install vlc` command is what downloads and installs the newer VLC version.
 
 Enter `y` when asked to continue, then verify:
 
@@ -220,7 +226,7 @@ Use dpkg --info (= dpkg-deb --info) to examine archive files.
 ## 🧠 Key Takeaways
 
 - `dpkg` inspects what is installed, while `apt-get` talks to repositories and resolves dependencies (Firefox pulled in `libdbus-glib-1-2` automatically).
-- Always run `apt-get update` before installing so package versions are current.
+- `apt-get update` refreshes the package lists only. Run it before installing so you get current versions, then use `apt-get install` or `apt-get upgrade` to actually change software.
 - The install output reported **56 packages not upgraded**, a reminder that `apt-get upgrade` is needed to keep a system fully patched.
 - Always verify a change after making it.
 
@@ -255,17 +261,10 @@ Use dpkg --info (= dpkg-deb --info) to examine archive files.
 **6. Removing GIMP and verifying**
 ![Remove GIMP](screenshots/06-remove-gimp-and-verify.png)
 
-## 🚀 Next Steps
-
-- [ ] Run `sudo apt-get upgrade` and review the 56 pending updates
-- [ ] Explore `apt-cache policy` to compare installed and candidate versions
-- [ ] Automate patching with `unattended-upgrades`
-- [ ] Write a Bash script that audits installed package versions
-
 ## 👩‍💻 Author
 
 **Sameera**
-Cybersecurity & IT Professional
+Aspiring IT Support Professional | Cybersecurity
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/sameernazneen)
 
