@@ -1,0 +1,13 @@
+PS> Start-Service ScardSvr
+
+Start-Service : Service 'Smart Card (ScardSvr)' cannot be started due to the
+following error: Cannot start service
+ScardSvr on computer '.'.
+At line:1 char:1
++ Start-Service ScardSvr
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError:
+(System.ServiceProcess.ServiceController:ServiceController) [Start-Service],
+   ServiceCommandException
+    + FullyQualifiedErrorId :
+CouldNotStartService,Microsoft.PowerShell.Commands.StartServiceCommand

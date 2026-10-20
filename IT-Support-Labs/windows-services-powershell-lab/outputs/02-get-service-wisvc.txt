@@ -1,0 +1,5 @@
+PS> Get-Service wisvc
+
+Status   Name               DisplayName
+------   ----               -----------
+Stopped  wisvc              Windows Insider Service

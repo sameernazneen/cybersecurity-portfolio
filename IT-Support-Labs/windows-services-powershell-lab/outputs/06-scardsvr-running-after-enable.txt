@@ -1,0 +1,7 @@
+PS> Set-Service ScardSvr -StartupType Manual
+PS> Start-Service ScardSvr
+PS> Get-Service ScardSvr
+
+Status   Name               DisplayName
+------   ----               -----------
+Running  ScardSvr           Smart Card

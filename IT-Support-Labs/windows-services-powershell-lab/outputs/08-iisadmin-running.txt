@@ -1,0 +1,5 @@
+PS> Get-Service IISADMIN
+
+Status   Name               DisplayName
+------   ----               -----------
+Running  IISADMIN           IIS Admin Service

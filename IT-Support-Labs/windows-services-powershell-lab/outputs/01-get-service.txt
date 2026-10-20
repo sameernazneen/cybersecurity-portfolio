@@ -1,0 +1,32 @@
+PS> Get-Service
+
+Status   Name               DisplayName
+------   ----               -----------
+Stopped  VSS                Volume Shadow Copy
+Running  w32time            Windows Time
+Stopped  WaaSMedicSvc       Windows Update Medic Service
+Stopped  WalletService      WalletService
+Stopped  WarpJITSvc         WarpJITSvc
+Stopped  WbioSrvc           Windows Biometric Service
+Running  Wcmsvc             Windows Connection Manager
+Stopped  WdiServiceHost     Diagnostic Service Host
+Stopped  WdiSystemHost      Diagnostic System Host
+Running  WdNisSvc           Windows Defender Antivirus Network ...
+Stopped  Wecsvc             Windows Event Collector
+Stopped  WEPHOSTSVC         Windows Encryption Provider Host Se...
+Stopped  wercplsupport      Problem Reports and Solutions Contr...
+Stopped  WerSvc             Windows Error Reporting Service
+Stopped  WiaRpc             Still Image Acquisition Events
+Running  WinDefend          Windows Defender Antivirus Service
+Running  WinHttpAutoProx... WinHTTP Web Proxy Auto-Discovery Se...
+Running  Winmgmt            Windows Management Instrumentation
+Running  WinRM              Windows Remote Management (WS-Manag...
+Stopped  wisvc              Windows Insider Service
+Stopped  wlidsvc            Microsoft Account Sign-in Assistant
+Stopped  wmiApSrv           WMI Performance Adapter
+Stopped  WMPNetworkSvc      Windows Media Player Network Sharin...
+Stopped  WPDBusEnum         Portable Device Enumerator Service
+Running  WpnService         Windows Push Notifications System S...
+Running  WpnUserService_... Windows Push Notifications User Ser...
+Stopped  WSearch            Windows Search
+Stopped  wuauserv           Windows Update

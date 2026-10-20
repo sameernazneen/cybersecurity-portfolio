@@ -1,0 +1,18 @@
+PS> Get-Service wisvc | Format-List *
+
+Name                : wisvc
+RequiredServices    : {rpcss}
+CanPauseAndContinue : False
+CanShutdown         : False
+CanStop             : False
+DisplayName         : Windows Insider Service
+DependentServices   : {}
+MachineName         : .
+ServiceName         : wisvc
+ServicesDependedOn  : {rpcss}
+ServiceHandle       : SafeServiceHandle
+Status              : Stopped
+ServiceType         : Win32ShareProcess
+StartType           : Manual
+Site                :
+Container           :

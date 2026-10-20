@@ -1,0 +1,18 @@
+PS> Get-Service ScardSvr | Format-List *
+
+Name                : ScardSvr
+RequiredServices    : {}
+CanPauseAndContinue : False
+CanShutdown         : False
+CanStop             : False
+DisplayName         : Smart Card
+DependentServices   : {}
+MachineName         : .
+ServiceName         : ScardSvr
+ServicesDependedOn  : {}
+ServiceHandle       :
+Status              : Stopped
+ServiceType         : Win32ShareProcess
+StartType           : Disabled
+Site                :
+Container           :

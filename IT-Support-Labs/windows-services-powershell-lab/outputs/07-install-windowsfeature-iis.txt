@@ -1,0 +1,5 @@
+PS> Install-WindowsFeature Web-WebServer,Web-Mgmt-Tools -IncludeAllSubFeature
+
+Success Restart Needed Exit Code      Feature Result
+------- -------------- ---------      --------------
+True    No             Success        {.NET Framework 3.5 (includes .NET 2.0 and...
