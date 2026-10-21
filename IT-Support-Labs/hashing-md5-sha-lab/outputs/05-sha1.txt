@@ -1,0 +1,6 @@
+$ shasum file.txt > file.txt.sha1
+$ cat file.txt.sha1
+65639a89992784291d769e05338085d1739645c6  file.txt
+
+$ shasum -c file.txt.sha1
+file.txt: OK

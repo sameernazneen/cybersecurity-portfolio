@@ -1,0 +1,10 @@
+$ md5sum -c badfile.txt.md5
+badfile.txt: FAILED
+md5sum: WARNING: 1 computed checksum did NOT match
+
+$ md5sum badfile.txt > new.badfile.txt.md5
+$ cat new.badfile.txt.md5
+dcd879fd2c162dbfe9a186a67902e7ce  badfile.txt
+
+# Original for comparison:
+c7a8ef893898f9a6b380eb4ec1e87113  file.txt

@@ -1,0 +1,6 @@
+$ shasum -a 256 file.txt > file.txt.sha256
+$ cat file.txt.sha256
+7a54af37c15a82e157c8368324e7234d22778ce845219cd16172895a608030ff  file.txt
+
+$ shasum -c file.txt.sha256
+file.txt: OK

@@ -1,0 +1,7 @@
+$ echo 'This is some text in a file, just so we have some data' > file.txt
+$ md5sum file.txt > file.txt.md5
+$ cat file.txt.md5
+c7a8ef893898f9a6b380eb4ec1e87113  file.txt
+
+$ md5sum -c file.txt.md5
+file.txt: OK

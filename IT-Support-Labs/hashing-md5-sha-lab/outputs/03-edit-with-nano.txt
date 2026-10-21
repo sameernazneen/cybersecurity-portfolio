@@ -1,0 +1,6 @@
+$ nano badfile.txt
+(one space added at the end of the line, then Ctrl+X)
+
+Save modified buffer?  (Answering "No" will DISCARD changes.)
+ Y Yes
+ N No           ^C Cancel

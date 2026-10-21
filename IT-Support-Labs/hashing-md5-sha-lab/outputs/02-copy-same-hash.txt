@@ -1,0 +1,9 @@
+$ cp file.txt badfile.txt
+$ md5sum badfile.txt > badfile.txt.md5
+$ cat badfile.txt.md5
+c7a8ef893898f9a6b380eb4ec1e87113  badfile.txt
+
+$ cat file.txt.md5
+c7a8ef893898f9a6b380eb4ec1e87113  file.txt
+
+# Same hash, different filename: hashing only looks at the data, not metadata.
